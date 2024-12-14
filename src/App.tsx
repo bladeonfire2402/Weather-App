@@ -1,12 +1,11 @@
 import React from 'react';
-import './App.css';
+import DisplayWeather from './components/DisplayWeather/DisplayWeather';
+import { Appwrapper } from './Appstyle.module.ts';
 
 function App() {
-  return (
-    <div>
-      meomeo
-    </div>
-  );
+  return <Appwrapper>
+    
+  </Appwrapper>
 }
 
 export default App;
